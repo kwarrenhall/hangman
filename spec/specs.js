@@ -14,6 +14,7 @@ describe("HangMan", function(){
     var testHangMan = new HangMan("dog");
     expect(testHangMan.getLength()).to.equal(3);
   });
+  
 });
 
 
