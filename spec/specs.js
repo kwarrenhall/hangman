@@ -1,11 +1,13 @@
 
-describe('vowelReplace', function() {
-  it("will replace vowel a with -", function() {
-    expect(vowelReplace("a")).to.equal("-");
-  });
+describe("HangMan", function(){
+   it("will randomly select a word from the array", function() {
+   var testHangMan = new HangMan("dog");
+     expect(testHangMan.word).to.equal("dog");
+   });
+});
 
-// describe('getRemainder', function(){
-//   it("returns output array of counter added to itself until reaching input1 ", function(){
-//     expect(getRemainder(30, 5)).to.equal(5, 10, 15, 20, 25, 30);
+
+// describe('vowelReplace', function() {
+//   it("will replace vowel a with -", function() {
+//     expect(vowelReplace("a")).to.equal("-");
 //   });
-// });
